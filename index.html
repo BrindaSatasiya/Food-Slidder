@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Slider</title>
+  <link rel="stylesheet" href="assets/css/bootstrap.css">
+  <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="asstes/css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <!-- ================== Start Navbar ============== -->
+  <nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="asstes/Image/logo.png" alt="" width="80px" height="80px"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav" style="margin-left: 200px;">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Breakfast</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Lunch</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Dinner</a>
+          </li>
+        </ul>
+      </div>
+      <svg class="icon1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25" viewBox="0 0 24 24">
+        <path
+          d="M 12 1 C 8.6761905 1 6 3.6761905 6 7 L 6 8 C 4.9069372 8 4 8.9069372 4 10 L 4 20 C 4 21.093063 4.9069372 22 6 22 L 18 22 C 19.093063 22 20 21.093063 20 20 L 20 10 C 20 8.9069372 19.093063 8 18 8 L 18 7 C 18 3.6761905 15.32381 1 12 1 z M 12 3 C 14.27619 3 16 4.7238095 16 7 L 16 8 L 8 8 L 8 7 C 8 4.7238095 9.7238095 3 12 3 z M 6 10 L 18 10 L 18 20 L 6 20 L 6 10 z M 12 13 C 10.9 13 10 13.9 10 15 C 10 16.1 10.9 17 12 17 C 13.1 17 14 16.1 14 15 C 14 13.9 13.1 13 12 13 z">
+        </path>
+      </svg>
+    </div>
+  </nav>
+
+  <!-- =================== home section ====================== -->
+
+  <section class="py-3 py-md-5">
+    <div class="container">
+      <div class="row gy-3 gy-md-4 gy-lg-0 align-items-lg-center">
+        <div class="contain col-12 col-lg-6 col-xl-4">
+          <h2 style="color: orange;">$32</h2>
+          <h3>Green Goddess <br>Chicken salad</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque repudiandae hic debitis aliquid ratione
+            omnis perspiciatis, odio non obcaecati, neque
+            minima amet dolor?</p>
+          <button class="button2">Add To Cart</button>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-8">
+          <div class="row justify-content-xl-center">
+            <div class="col-12 col-xl-11">
+              <div class="wrapper">
+                <div class="item"><img src="asstes/Image/i-1-1.jpg" alt=""></div>
+                <div class="item"><img src="asstes/Image/i-2-2.jpg" alt=""></div>
+                <div class="item"><img src="asstes/Image/i-3-3.jpg" alt=""></div>
+                <div class="item"><img src="asstes/Image/i-4-4.jpg" alt=""></div>
+                <div class="item"><img src="asstes/Image/i-5-5.jpg" alt=""></div>
+              </div>
+
+              <div class="controls selection-off">
+                <div class="left selection-off" onclick="turnLeft()"><i class="fas fa-caret-left"
+                    style="color: black;"></i></div>
+                <div class="right selection-off" onclick="turnRight()"><i class="fas fa-caret-right"
+                    style="color: black;"></i></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <script src="asstes/js/script.js"></script>
+</body>
+
+</html>
